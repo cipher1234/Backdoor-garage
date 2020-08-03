@@ -15,7 +15,7 @@ for d in data:
         if data[i+1] == ord(command[1]):
             if data[i+2] == ord(command[2]):
                 if data[i+l] == ord(command[l]):
-                    print(chr(data[i+26]))
+                    
                     i = i+l
                     k = i-l
                     break
